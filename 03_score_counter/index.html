@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skor Tahtası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="score-container">
+        <h1 class="project-title"> Skor Tahtası</h1>
+        <div class="score-board">
+            <span id="p1Display">0</span> - <span id="p2Display">0</span>
+        </div>
+        <h2 id="winnerMessage" class="winner-text"></h2>
+
+        <p>Hedef Skor:</p>
+        <select id="winningScoreSelect">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="10">10</option>
+        </select>
+
+        <div class="buttons">
+            <button id="p1Button">Oyuncu 1</button>
+            <button id="p2Button">Oyuncu 2</button>
+            <button id="resetButton">Sıfırla</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

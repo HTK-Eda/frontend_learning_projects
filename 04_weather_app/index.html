@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu Uygulaması</title>
+</head>
+<body>
+
+    <div class="weather-container">
+        <div class="search-box">
+            <input type="text" placeholder="Şehir giriniz..." id="search-input">
+            <button id="search-btn">Ara</button>
+        </div>
+
+        <div class="weather-card">
+            <h2 id="city">İzmir</h2>
+            <div class="weather-info">
+                <span id="temperature">28°C</span>
+                <p id="description">Güneşli</p>
+            </div>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <p>Nem</p>
+                    <span id="humidity">%45</span>
+                </div>
+                <div class="detail-item">
+                    <p>Rüzgar</p>
+                    <span id="wind">12 km/s</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
